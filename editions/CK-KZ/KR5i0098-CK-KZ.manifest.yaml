@@ -1,0 +1,49 @@
+canonical_identifier: bkk:krp/KR5i0098/CK-KZ/v1
+canonical_location: https://kanripo.org/bkk/KR5i0098/CK-KZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 初真戒律
+  date: '2015-08-29 17:59:11.619634'
+  source:
+    repository: kanripo
+    path: KR5i0098
+  image_base_urls:
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+  edition:
+    short: CK-KZ
+    label: 【重刊道藏輯要】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 1, filename: KR5i0098_001-CK-KZ.yaml, hash: 'sha256:69c746cfcd27cb603fadd3cd9ad1b35292057dc59f7eda1661cdbdc5c2bfd1a1'}
+  - {seq: 2, filename: KR5i0098_002-CK-KZ.yaml, hash: 'sha256:785f62730c0fcd6294a29f2a17f5fa9c48097ca6976f0ca9b870027ad520eb06'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5i0098_001-CK-KZ.markers.yaml, hash: 'sha256:e6fb1d2d590a19d7878c81462739e0f172ab0a67d6b5fe79651fee3960df04a2'}
+  - {seq: 2, role: markers, filename: assets/KR5i0098_002-CK-KZ.markers.yaml, hash: 'sha256:5aad7c09302d7cc9e0344e8013848fbc493c7191628a49d9069ae1f3c8fff340'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: CK-KZ_KR5i0098_01p025a
+    span:
+    - body
+    - 0
+    - 1665
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: CK-KZ_KR5i0098_02p034a
+    span:
+    - body
+    - 0
+    - 7871
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:e561b01cf8b9984564ee295b96990aa06fdd048946e40251fa9e008937cecc43
